@@ -43,8 +43,7 @@
     "vite": "^6.3.5",
     "vite-plugin-compression": "^0.5.1"
   },
-    "engines": {
+  "engines": {
     "node": "18.x"
   }
-
 }
