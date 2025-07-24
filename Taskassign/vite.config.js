@@ -18,5 +18,9 @@ export default defineConfig({
         }
       }
     }
+  },
+  optimizeDeps:{
+    include:['@emotion/react', '@emotion/styled'],
+    exclude:['@mui/material']
   }
 })
