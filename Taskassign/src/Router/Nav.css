@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+}
+.mainnav{
+    display: flex;
+    position: relative;
+    background-color: rgb(15, 15, 15);
+ 
+    padding: 15px;
+    
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+  .logo{
+   color: antiquewhite;
+   
+ 
+   
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  
+ .navmenu{
+   margin-top:18px
+    }
+ .link{
+    text-decoration: none;
+    font-size: 24px;
+    text-align: justify;
+    margin: 15px;
+    /* color:rgb(13, 13, 13); */
+   color:  antiquewhite;
+  }
+  .cart-badge{
+    display: inline;
+    position: absolute;
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+ padding: 3px;
+    border-radius: 50%;
+    margin-top: -10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .hamburger{
+    display: none;
+    cursor: pointer;
+    color: whitesmoke;
+  }
+  .part-container{
+    display: block;
+  }
+
+   
+
+  @media screen and (max-width:1024px) {
+
+     *{
+    padding: 0;
+    margin: 0;
+  }
+ .mainnav{
+  width:120% ;
+  padding:25px;
+ 
+  justify-content: space-around;
+  
+ }
+  .hamburger{
+  
+    display: block;
+      z-index:10000;
+      position: relative;
+     justify-self: center;
+     margin-top: 15px;
+     margin-left: -150px;
+   
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+  }
+  .navmenu{
+     z-index:9999;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    
+      background-color: rgb(15, 15, 15);
+      color: antiquewhite;
+      display: none;
+      padding: 10px 0;
+    
+
+  }
+   
+  .navmenu.active{
+    display: flex;
+ right:150px;
+   
+  }
+  .link{
+    text-align: center;
+    padding: 12px;
+  }
+   .logo{
+    font-size: 1.5rem;
+  }
+  
+}
+    
+   
+  
+  
+@media screen and (max-width:768px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ .mainnav{
+  width:140% ;
+  justify-content: space-around;
+  box-sizing: border-box;
+ 
+ }
+  .hamburger{
+   display: block;
+  justify-self: center;
+  align-items: center;
+  z-index: 1000;
+    
+  }
+  .navmenu{
+      z-index: 1000;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    
+      background-color: rgb(15, 15, 15);
+      color: antiquewhite;
+      display: none;
+      padding: 10px 0;
+    
+
+  }
+  .navmenu.active{
+    display: flex;
+    /* z-index: 1000; */
+  }
+  .link{
+    text-align: center;
+    padding: 12px;
+  }
+   .logo{
+    text-align: 1.2rem;
+  }
+  
+}
+
+@media screen and (max-width:468px) {
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ .mainnav{
+  width:140% ;
+  justify-content: space-around;
+  padding: 15px;
+  box-sizing: border-box;
+ 
+ }
+  .hamburger{
+   display: block;
+  justify-self: center;
+  align-items: center;
+  z-index:1000;
+    
+  }
+  .navmenu{
+      z-index: 1000;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+   background-color: rgb(15, 15, 15);
+      color: antiquewhite;
+      display: none;
+      padding: 10px 0;
+    
+
+  }
+  .navmenu.active{
+    display: flex;
+    /* z-index: 1000; */
+  }
+  .link{
+    text-align: center;
+    padding: 12px;
+  }
+   .logo{
+    text-align: 1rem;
+  }
+  
+}
+ 

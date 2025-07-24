@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.cartt-container{
+ 
+    color: antiquewhite;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.heading-txt{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 45px;
+}
+.i-txt{
+    font-size: 20px;
+}
+ .Removecart-container{
+  
+    margin-top: 50px;
+    justify-self: center;
+    
+ }
+ 
+ .card-body1{
+  
+   
+    height:max-content;
+ }
+ .title1{
+    font-size: 28px;
+ }
+
+.name1{
+    font-size:30px ;
+} 
+.cart-for{
+    text-align: justify;
+
+}
+.cart-valid{
+    margin-left:25px;
+   
+    margin-top: 10px;
+}
+.btn1{
+    margin-top: 15px;
+    justify-self: center;
+   display: flex;
+   padding: 5px;
+    
+     
+}
+.payment-options {
+    display:inline-block;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1000;
+}
+
+ 
+ 
+
+ 
+

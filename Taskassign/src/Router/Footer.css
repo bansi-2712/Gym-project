@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.footer{
+    
+    display: flex;
+       box-sizing: border-box;
+    background-color: antiquewhite;
+    width: 100%;
+    height:auto;
+    justify-content: space-around;
+    align-items: center;
+ 
+    
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 25px;
+    gap: 5px;
+}
+.link1{
+     margin-top: 25px;
+     margin-left: 25px;
+    color: black;
+    text-decoration: none;
+    /* font-weight: bolder; */
+    font-size: 1.rem;
+
+}
+.link1:hover{
+    color: gray;
+    width:max-content;
+    border-radius: 5px;
+    transform: scale3d(1.05);
+}
+.adress{
+    margin-top: 25px;
+  
+
+}
+.adress p {
+    margin-top: 25px;
+   
+}
+.p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.p:hover{
+    color:gray; ;
+}
+.contact-info{
+    display: inline-block;
+    margin-top: 25px;
+}
+.ic{
+    margin-top: 15px;
+    font-size: 30px;
+    display: flex;
+    
+    gap: 20px;
+}
+.icon1{
+    color:black;
+ }
+ .icon1:hover{
+    transform: scalex(1.5);
+    color: gray;
+ }
+ .contact{
+    margin-top: 15px;
+ }
+ .contact-p{
+    font-weight: bold;
+    margin-top: 10px;
+ }
+ .contact-p:hover{
+    transform: scale3d(1.05);
+    color: gray;
+ }
+
+ @media screen and (max-width:1024px) {
+    .footer{
+    flex-direction: column;
+        box-sizing: border-box;
+         width: 115%;
+      justify-self: center;
+      align-items: center;
+      font-size:2vh;
+      padding-left: 70px;
+     }
+     .footer-nav{
+        justify-self: center;
+        text-align: center;
+     }
+     .adress{
+        justify-self: center;
+        text-align: justify;
+     }
+     }
+  @media screen and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .footer{
+        width: 140%;
+        justify-self: center;
+        align-items: center;
+     margin-left:250px;
+    }
+    
+  } 
+  @media screen and (max-width:468px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .footer{
+        margin-right:80px;
+    }
+    
+  } 
+ 
+ 
+
